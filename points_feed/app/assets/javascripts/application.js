@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.remotipart
+//= require jquery.animate-colors-min
 //= require twitter/bootstrap
 //= require cookies
 //= require mustache
