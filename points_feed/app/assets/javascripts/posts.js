@@ -2,7 +2,7 @@ var page_for_content = 1;
 var auth_display_name = $("#auth_display_name").val();
 
 function post_added() {
-  var success_sound = $('<audio src="/assets/success.mp3">');
+  var success_sound = $('<audio src="/assets/tick.wav">');
   fetch_posts($('#user_posts'));
   success_notify('Your post has been added');
   success_sound[0].play();
