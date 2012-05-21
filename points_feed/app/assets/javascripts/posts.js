@@ -74,7 +74,7 @@ function fetch_posts(div, page) {
 }
 
 function positionLightboxImage() {
-  var top = ($(window).height() - $('#lightbox').height()) / 2;
+  var top = ($(window).height() - $('#lightbox').height()) / 4;
   var left = ($(window).width() - $('#lightbox').width()) / 2;
   $('#lightbox')
     .css({
